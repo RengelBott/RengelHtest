@@ -5,7 +5,8 @@ import { xpRange } from '../lib/levelling.js'
 
 let tags = {
   'main': 'INFO',
-  'search': 'SEARCH',
+  'search': 'SEARCH',
+
   'serbot': 'SUB BOTS',
   'rpg': 'RPG',
   'rg': 'REGISTRO',
@@ -17,16 +18,17 @@ let tags = {
   'tools': 'TOOLS',
   'cmd': 'DATABASE',
   'owner': 'OWNER', 
-  
+  
+
 }
 
 const defaultMenu = {
   before: `
 *︵‿︵‿︵‿︵ ︵‿︵‿︵‿︵︵‿︵‿*
 
-“ Hola mortal *%name* soy  *⚝Hades⚝*, %greeting ”
+“ Hola *%name* soy  *Rengel Bot*, %greeting ”
 
-     ⋆[ *>INFO DE HADES<* ]
+     ⋆[ *>INFO DE <* ]
  ↡▰▱▰▱▰▱▰▱▰▱▰▱▰▱
  》* 🪐Estado* :  Hades Público 
  》*🗡️ Baileys* : Hades multi
@@ -43,7 +45,7 @@ const defaultMenu = {
  》 *🌠 XP* : %totalexp
  ⬑ ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 ╰───────────═┅═──────────
-     *★ M E N Ú-HADES ★ *
+     *★ M E N Ú ★ *
 
 ╭───═[ MENU🔞]═────⋆
 │»»————--　★　————-««···
@@ -62,7 +64,8 @@ const defaultMenu = {
 ╰───────────═┅═──────────
 %readmore
 *─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-\t\t\t*★*
+
+\t\t\t*★*
 `.trimStart(),
   header: '╭───═[ `MENÚ %category` ]═────⋆\n│»»————--　⚔️　————-««···',
     body: '⚔️│%cmd %islimit %isPremium\n',
