@@ -31,12 +31,12 @@ global.prems = []
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = ``
-global.author = '{\n "bot": {\n   "name": "★☪Hades-Bot☪★",\n     "author": "ZxYerSixZx",\n   "status_bot": "active"\n }\n}'
-global.wait = '🐲 *Aɢᴜᴀʀᴅᴇ mortal,🗡️Dios Hades🗡️... ฅ^•ﻌ•^ฅ*'
-global.botname = '★☪Hades-Bot☪★'
-global.textbot = `ZxYerSixZx`
+global.author = '{\n "bot": {\n   "name": "Rengel Bot",\n     "author": "Rengel",\n   "status_bot": "active"\n }\n}'
+global.wait = ' *Aɢᴜᴀʀᴅᴇ,🗡️Rengel Dios🗡️... ฅ^•ﻌ•^ฅ*'
+global.botname = '★Rengel Bot★'
+global.textbot = `Rengel`
 global.listo = '*Aqui tiene ฅ^•ﻌ•^ฅ*'
-global.namechannel = '[★Hades-Bot ★] '
+global.namechannel = '[★Rengel Bot★] '
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
