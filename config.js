@@ -10,8 +10,8 @@ import moment from 'moment-timezone'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['51907376960', 'ZxYerSixZx ', true],
-  ['51907376960', 'ZxYerSixZx', true],
+  ['972527282076', 'Rengel ', true],
+  ['972527282076', 'Rengel', true],
   ['51907376960'],
   ['51907376960'],
   ['51907376960'],
