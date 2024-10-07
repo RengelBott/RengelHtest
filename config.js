@@ -30,7 +30,7 @@ global.prems = []
    
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = ``
+global.packname = `𝐑𝐄𝐍𝐆𝐄𝐋 𝐌𝐄𝐋𝐇𝐎𝐑 𝐁𝐎𝐓`
 global.author = '{\n "bot": {\n   "name": "Rengel Bot",\n     "author": "Rengel",\n   "status_bot": "active"\n }\n}'
 global.wait = ' *Aɢᴜᴀʀᴅᴇ,🗡️Rengel Dios🗡️... ฅ^•ﻌ•^ฅ*'
 global.botname = '★Rengel Bot★'
