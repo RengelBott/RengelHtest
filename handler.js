@@ -403,15 +403,15 @@ export async function handler(chatUpdate) {
 
 global.dfail = (type, m, conn, usedPrefix) => {
     let msg = {
-        rowner: `✯ Hola, este comando solo puede ser utilizado por el *Creador* de ★ Hades-Bot ★ .`,
-        owner: `✯ Hola, este comando solo puede ser utilizado por el *Creador* del Bot Hades y *Sub Bots hades*.`,
-        mods: `✯ Hola, este comando solo puede ser utilizado por la administración de *★Hades-Bot ★* - ZxYerSixZx.`,
+        rowner: `✯ Hola, este comando solo puede ser utilizado por *Rengel* .`,
+        owner: `✯ Hola, este comando solo puede ser utilizado por *Rengel* .`,
+        mods: `✯ Hola, este comando solo puede ser utilizado por la administración de *Rengel Bot* -Rengel.`,
         premium: `✯ Hola , este comando solo puede ser utilizado por Usuarios con armaduras *DIVINAS*.`,
-        group: `✯ Hola Humano, este comando solo puede ser utilizado en *Grupos*.`,
-        private: `✯ Hola Mortal, este comando solo puede ser utilizado en mi Chat *Privado*.`,
-        admin: `✯ Hola soy Hades, este comando solo puede ser utilizado por los *Administradores* del Grupo.`,
-        botAdmin: `✯ Hola, ★Hades-Bot ★ debe ser *Administradora* para ejecutar este Comando.`,
-        unreg: `✯ Hola mortal, para usar este comando debes estar *Registrado.*\n\nPara usar el bot debes registrarte primero\n\nUtiliza: */reg nombre.edad*\n\n_Ejemplo: */reg ZxYerSixZx.55*_\n\nNo pongas los * *`,
+        group: `✯ Hola, este comando solo puede ser utilizado en *Grupos*.`,
+        private: `✯ Hola, este comando solo puede ser utilizado en mi Chat *Privado*.`,
+        admin: `✯ Hola soy RengelBot, este comando solo puede ser utilizado por los *Administradores* del Grupo.`,
+        botAdmin: `✯ Hola, ★Rengel Bot ★ debe ser *Administrador* para ejecutar este Comando.`,
+        unreg: `✯ Hola mortal, para usar este comando debes estar *Registrado.*\n\nPara usar el bot debes registrarte primero\n\nUtiliza: */reg nombre.edad*\n\n_Ejemplo: */reg Rengel.20*_\n\nNo pongas los * *`,
         restrict: `✯ Hola, esta característica está *deshabilitada.*`  
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))
