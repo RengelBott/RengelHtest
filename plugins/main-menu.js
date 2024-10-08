@@ -7,7 +7,7 @@ let tags = {
   'main': 'INFO',
   'search': 'SEARCH',
 
-  'serbot': 'SUB BOTS',
+  '': '',
   'rpg': 'RPG',
   'rg': 'REGISTRO',
   'img': 'IMAGE',
