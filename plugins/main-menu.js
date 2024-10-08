@@ -28,21 +28,21 @@ const defaultMenu = {
 
 “ Hola *%name* soy  *Rengel Bot*, %greeting ”
 
-     ⋆[ *>INFO DE <* ]
+     [ *>INFO <* ]
  ↡▰▱▰▱▰▱▰▱▰▱▰▱▰▱
- 》* 🪐Estado* :  Hades Público 
- 》*🗡️ Baileys* : Hades multi
- 》*⌛ Despierto * : %muptime
- 》*👥Mortales* : %totalreg
+ 》 🪐Estado :  Público 
+ 》🗡️ Baileys : Rengel multi
+ 》⌛ Despierto : %muptime
+ 》👥Users : %totalreg
  ↟▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 
 %readmore
 ╭════ [ *>INFO DE USER <* ]════ 
 │⬐ ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
- 》 *👥Mortal* : %name
- 》 *🌌 Cosmos* : %limit
- 》 *🌀Nivel* : %level
- 》 *🌠 XP* : %totalexp
+ 》 👥Users : %name
+ 》 🌌 Cosmos : %limit
+ 》 🌀Nivel : %level
+ 》 🌠 XP : %totalexp
  ⬑ ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 ╰───────────═┅═──────────
      *★ M E N Ú ★ *
