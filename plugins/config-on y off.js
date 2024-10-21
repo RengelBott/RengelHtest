@@ -65,7 +65,7 @@ ${wm}`,//`
 title: null,
 buttonText: `⚙️ ${lenguajeGB.smsConfi1()} ⚙️`,
 sections }
-let isEnable = /true|enable|(turn)?on|1/i.test(command)
+let isDisable = /false|disable|off|0/i.test(command);
 let type = (args[0] || '').toLowerCase()
 let isAll = false, isUser = false
 switch (type) {
