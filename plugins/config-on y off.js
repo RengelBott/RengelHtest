@@ -79,7 +79,7 @@ throw false
 global.dfail('admin', m, conn)
 throw false
 }
-chat.welcome = isEnable
+chat.welcome = false;
 break
     
 case 'detect': case 'avisos':
