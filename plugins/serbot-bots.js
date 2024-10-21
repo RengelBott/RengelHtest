@@ -19,7 +19,7 @@ let img = await (await fetch(`https://i.ibb.co/ZWtV5Ph/20240705-085716.jpg`)).bu
 
 await _envio.sendFile(m.chat, img, 'thumbnail.jpg', responseMessage, m, false, { mentions: _envio.parseMention(responseMessage) })
 }
-handler.command = ['listjadibot', 'bots']
-handler.help = ['bots']
-handler.tags = ['serbot']
+handler.command = ['', '']
+handler.help = ['']
+handler.tags = ['']
 export default handler
