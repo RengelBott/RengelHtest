@@ -6,21 +6,36 @@ let handler = async (m, { conn, text, participants }) => {
     let q = m.quoted ? m.quoted : m // Si el mensaje está cotizado, úsalo
     let msg
 
-    // Verifica si el mensaje cotizado tiene contenido multimedia o es texto
-    if (q.mtype === 'imageMessage' || q.mtype === 'videoMessage' || q.mtype === 'documentMessage' || q.mtype === 'stickerMessage') {
-        // Si es imagen, video, documento o sticker, envía el contenido multimedia
-        msg = generateWAMessageFromContent(m.chat, {
-            [q.mtype]: q.message[q.mtype]
-        }, {
-            quoted: m,
-            userJid: conn.user.id,
-            mentions: users
-        })
+    // Verificar si el mensaje tiene un tipo multimedia
+    if (q && q.message) {
+        const messageType = Object.keys(q.message)[0] // Obtener el tipo de mensaje
+
+        // Verifica si el mensaje es multimedia
+        if (['imageMessage', 'videoMessage', 'documentMessage', 'stickerMessage'].includes(messageType)) {
+            msg = generateWAMessageFromContent(m.chat, {
+                [messageType]: q.message[messageType]
+            }, {
+                quoted: m,
+                userJid: conn.user.id,
+                mentions: users
+            })
+        } else {
+            // Si es texto, utiliza la estructura de mensaje de texto
+            msg = generateWAMessageFromContent(m.chat, {
+                extendedTextMessage: {
+                    text: text || q.text || '',
+                    mentions: users
+                }
+            }, {
+                quoted: m,
+                userJid: conn.user.id,
+            })
+        }
     } else {
-        // Si es texto, utiliza la estructura de mensaje de texto
+        // Si no hay un mensaje cotizado válido, envía solo texto
         msg = generateWAMessageFromContent(m.chat, {
             extendedTextMessage: {
-                text: text || q.text || '',
+                text: text || 'Mensaje no reconocido',
                 mentions: users
             }
         }, {
