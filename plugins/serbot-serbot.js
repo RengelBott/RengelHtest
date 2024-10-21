@@ -63,13 +63,13 @@ async function serbot() {
         conn.isInit = true
       }
       if (qr) {
-        let txt = '`–  S E R B O T  -  S U B B O T`\n\n'
-            txt += `┌  ✩  *Escanea este QR para ser en un Sub Bot*\n`
-            txt += `│  ✩  Pasos para escanear\n`
-            txt += `│  ✩  *1* : Haga click en los 3 puntos\n`
-            txt += `│  ✩  *2* : Toque dispositivos vinculados\n`
-            txt += `└  ✩  *3* : Escanea este QR\n\n`
-            txt += `> *Nota:* Este código QR expira en 30 segundos.`
+        let txt = '`'
+            txt += ``
+            txt += ``
+            txt += ``
+            txt += ``
+            txt += ``
+            txt += ``
         let sendQR = await parentw.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", txt, m, null, rcanal)
         
        setTimeout(() => {
@@ -100,7 +100,7 @@ async function serbot() {
         if (args[0]) {
           return
         }
-        await parentw.reply(conn.user.jid, "La siguiente vez que se conecte envía el siguiente mensaje para iniciar sesión sin escanear otro código *QR*", m, rcanal)
+        await parentw.reply(conn.user.jid, "", m, rcanal)
         await parentw.reply(conn.user.jid, usedPrefix + command + " " + Buffer.from(fs.readFileSync(`${folderSub}/creds.json`), 'utf-8').toString('base64'), m, rcanal)
       }
     }
