@@ -5,9 +5,9 @@ let handler = async (m, { conn }) => {
     conn.ws.close()
   }
 }
-handler.help = ['stop']
-handler.tags = ['serbot']
-handler.command = ['stop', 'stopbot', 'stopbebot']
+handler.help = ['']
+handler.tags = ['']
+handler.command = ['', '', '']
 handler.owner = true
 
 export default handler
