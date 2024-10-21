@@ -40,8 +40,8 @@ global.namechannel = '[★Rengel Bot★] '
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.catalogo = fs.readFileSync('')
-global.miniurl = fs.readFileSync('')
+global.catalogo = fs.readFileSync('./storage/img/catalogo.png')
+global.miniurl = fs.readFileSync('./storage/img/miniurl.mp4')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
